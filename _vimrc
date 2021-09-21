@@ -76,6 +76,8 @@ hi CursorLine cterm=none ctermbg=DarkMagenta ctermfg=White
 " previm_open_cmd contains the keyword 'firefox'.
 " Change it to to the browser you're using or remove the pattern match
 " condition if you don't use cygin on your machine.
+" In my case, I'm using Edge, so I replace 'firefox' with 'msedge' to get
+" the correct preview html path.
 
 let g:previm_open_cmd = 'start "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"' 
 
