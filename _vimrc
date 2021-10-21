@@ -6,6 +6,7 @@ set rtp+=~/vimfiles/bundle/Vundle.vim
 call vundle#begin('~/vimfiles/bundle')
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'preservim/nerdtree'
 Plugin 'mattn/emmet-vim'
@@ -13,6 +14,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'wikitopian/hardmode'
 Plugin 'gabrielelana/vim-markdown'
+Plugin 'flazz/vim-colorschemes'
 " Plugin 'tyru/open-browser.vim'
 Plugin 'previm/previm'
 " Plugin 'godlygeek/tabular'
